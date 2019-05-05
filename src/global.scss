@@ -40,7 +40,8 @@ ion-item {
   }
   
   .bg-profile {
-    background-image: linear-gradient(135deg, var(--ion-color-dark), var(--ion-color-primary))
+    background-image: var(--ion-color-dark);
+    background: var(--ion-color-dark);
   }
   
   .bg-main {
@@ -113,7 +114,7 @@ ion-item {
   // Custom toolbar (overriding Shadow DOM)
   ion-toolbar {
     &.ion-color-primary {
-      --ion-color-base: linear-gradient(135deg, var(--ion-color-dark), var(--ion-color-primary)) !important;
+      --ion-color-base: var(--ion-color-light) !important;
     }
   }
   
@@ -126,7 +127,7 @@ ion-item {
   
   // style for auth pages
   .auth-page {
-    background-image: linear-gradient(135deg, var(--ion-color-dark), var(--ion-color-primary));
+    background-image: var(--ion-color-light);
   
     .grid {
       padding: 0;
@@ -156,7 +157,7 @@ ion-item {
         height: 60px;
         margin: 20px auto 8px;
         border-radius: 10%;
-        background: url("/assets/img/ionic4start-ico.png") no-repeat;
+        background: url("/assets/img/dog.svg") no-repeat;
         background-size: 100%;
       }
   
@@ -178,11 +179,11 @@ ion-item {
   
           ion-label {
             font-size: 1em;
-            color: var(--ion-color-light);
+            color: var(--ion-color-dark);
           }
   
           input {
-            color: var(--ion-color-light);
+            color: var(--ion-color-dark);
           }
         }
       }
@@ -195,7 +196,7 @@ ion-item {
     ion-header {
       ion-toolbar {
         &.ion-color-dark {
-          --ion-color-base: linear-gradient(135deg, var(--ion-color-dark), var(--ion-color-primary)) !important;
+          --ion-color-base: var(--ion-color-light) !important;
         }
       }
     }
@@ -207,3 +208,5 @@ ion-item {
       margin-bottom: -2px;
     }
   }
+
+  //teste botao

@@ -1,6 +1,18 @@
 :host {
     ion-content {
-        --background: linear-gradient(135deg, var(--ion-color-dark), var(--ion-color-primary));
+        --background: url("/assets/img/backLogin.jpg") no-repeat;
+    }
+    ion-button.ion-color.ion-color-secondary.button.button-full.button-medium.button-round.button-solid.button-disabled.ion-activatable.ion-focusable.hydrated {
+        border: 1px solid #fff;
+        border-radius: 24px;
+        background: transparent;
+        --ion-color-base: #ffffff00 !important;
+    }
+    .auth-page .auth-content .list-form ion-item ion-label {
+        color: var(--ion-color-light);
+    }
+    .auth-page .auth-content .list-form ion-item input {
+        color: var(--ion-color-light);
     }
 }
 

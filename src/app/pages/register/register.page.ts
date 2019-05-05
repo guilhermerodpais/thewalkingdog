@@ -29,6 +29,9 @@ export class RegisterPage implements OnInit {
       'email': [null, Validators.compose([
         Validators.required
       ])],
+      'profile': [null, Validators.compose([
+        Validators.required
+      ])],
       'password': [null, Validators.compose([
         Validators.required
       ])]

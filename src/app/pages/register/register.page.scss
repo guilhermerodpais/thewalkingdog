@@ -1,5 +1,20 @@
 :host {
   ion-content {
-    --background: linear-gradient(135deg, var(--ion-color-dark), var(--ion-color-primary))
+    --background: var(--ion-color-light)
   }
+  .auth-page .auth-content .logo {
+    width: 60px;
+    height: 60px;
+    margin: 20px auto 8px;
+    border-radius: 10%;
+    background: url(/assets/img/dog.svg) no-repeat;
+    background-size: 80%;
+    background-color: #ff9903;
+    border-radius: 7px;
+    background-position: center;
+}
+.item-select{
+  margin: 21px 0;
+  margin-bottom: 0;
+}
 }

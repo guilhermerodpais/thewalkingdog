@@ -4,8 +4,8 @@
       <ion-menu-button color="secondary"></ion-menu-button>
     </ion-buttons>
     <ion-title>
-        <ion-text color="light">
-          <ion-text color="light" class="fw700">Ionic 4 Start</ion-text>
+        <ion-text color="dark">
+          <ion-text color="dark" class="fw700">Feed</ion-text>
         </ion-text>
     </ion-title>
     <ion-buttons slot="end">
@@ -26,34 +26,23 @@
 </ion-header>
 
 <ion-content>
-  <ion-card no-margin class="no-radius">
-    <ion-item lines="none" color="medium">
-      <ion-label>
-        <h2 no-margin class="fw500 no-margin">
-          <ion-text color="dark">Alert / Toast test</ion-text>
-        </h2>
 
-        <p class="text-11x no-margin">
-          <ion-text  color="primary">{{yourLocation}}</ion-text>
-        </p>
-      </ion-label>
-      <ion-button shape="round" fill="outline" size="small" color="primary" (click)="alertLocation()">
-        Location
-        <ion-icon name="locate"></ion-icon>
-      </ion-button>
-    </ion-item>
-  </ion-card>
-
-  <ion-card class="bg-white">
-    <ion-img [src]="themeCover"></ion-img>
-    <ion-button expand="full" color="dark" (click)="presentImage(themeCover)" no-margin>
-      Modal 1: Modal Image
-    </ion-button>
-  </ion-card>
-
-  <ion-button margin shape="round" expand="full" color="secondary" (click)="searchFilter()">
-    Modal 2: Search Filter
-  </ion-button>
+  <ion-item class="bg-white" (click)="presentImage(themeCover)">
+      <ion-icon name="walk" slot="start"></ion-icon>
+      <ion-label>Juliana Ribeiro</ion-label>
+  </ion-item>
+  <ion-item class="bg-white" (click)="presentImage(themeCover)">
+      <ion-icon name="walk" slot="start"></ion-icon>
+      <ion-label>Ewerton Carlos</ion-label>
+  </ion-item>
+  <ion-item class="bg-white" (click)="presentImage(themeCover)">
+      <ion-icon name="walk" slot="start"></ion-icon>
+      <ion-label>Jade Bruna</ion-label>
+  </ion-item>
+  <ion-item class="bg-white" (click)="presentImage(themeCover)">
+      <ion-icon name="walk" slot="start"></ion-icon>
+      <ion-label>Vinicius Costa</ion-label>
+  </ion-item>
   
   <popmenu></popmenu>
 </ion-content>
