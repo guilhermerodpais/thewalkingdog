@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Ionic 4 Start Theme (v1.0.0)
 ==========
 **Ionic 4 start theme** experiencing the best of new features about this new and definitive release: Angular 7 + Ionic 4 final. 
@@ -62,3 +63,7 @@ ___
 <br>
 **Facebook Page:**
 [https://www.facebook.com/ionicthemecom](https://www.facebook.com/ionicthemecom)
+=======
+# thewalkingdog
+Ionicapp
+>>>>>>> 1859377edcb6f5a34cdd77fa3ddde39691490781
