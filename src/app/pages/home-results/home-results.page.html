@@ -4,13 +4,11 @@
       <ion-menu-button color="secondary"></ion-menu-button>
     </ion-buttons>
     <ion-title>
-        <ion-text color="dark">
-          <ion-text color="dark" class="fw700">Feed</ion-text>
-        </ion-text>
+          <ion-text color="light" class="fw700">Feed</ion-text>
     </ion-title>
     <ion-buttons slot="end">
-      <ion-button size="small" shape="round" color="medium" (click)="notifications()">
-        <ion-icon name="notifications"></ion-icon>
+      <ion-button size="small" shape="round" color="medium" (click)="goToPasseios()">
+        <ion-icon name="folder"></ion-icon>
         <ion-badge color="dark" slot="end">2</ion-badge>
       </ion-button>
     </ion-buttons>
@@ -26,23 +24,34 @@
 </ion-header>
 
 <ion-content>
-
-  <ion-item class="bg-white" (click)="presentImage(themeCover)">
-      <ion-icon name="walk" slot="start"></ion-icon>
-      <ion-label>Juliana Ribeiro</ion-label>
-  </ion-item>
-  <ion-item class="bg-white" (click)="presentImage(themeCover)">
-      <ion-icon name="walk" slot="start"></ion-icon>
-      <ion-label>Ewerton Carlos</ion-label>
-  </ion-item>
-  <ion-item class="bg-white" (click)="presentImage(themeCover)">
-      <ion-icon name="walk" slot="start"></ion-icon>
-      <ion-label>Jade Bruna</ion-label>
-  </ion-item>
-  <ion-item class="bg-white" (click)="presentImage(themeCover)">
-      <ion-icon name="walk" slot="start"></ion-icon>
-      <ion-label>Vinicius Costa</ion-label>
-  </ion-item>
+  <ion-card (click)="goToPerson()">
+      <div class="card-image" style="background-image: url(https://images.unsplash.com/photo-1527362950785-f487a7c1fe48?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=631&q=80)"></div>
+      <div class="card-info">    
+        <div class="card-title">Juliana Ribeiro</div>
+        <div class="card-subtitle"><span>MG | </span>1029 Passeios realizados</div>
+    </div>
+  </ion-card>
+<ion-card>
+  <div class="card-image" style="background-image: url(https://images.unsplash.com/photo-1536616890852-460613def8c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=677&q=80)"></div>
+  <div class="card-info">    
+    <div class="card-title">Ewerton Carlos</div>
+    <div class="card-subtitle"><span>MG | </span>29 Passeios realizados</div>
+  </div>
+</ion-card>
+<ion-card>
+  <div class="card-image" style="background-image: url(https://images.unsplash.com/photo-1525280419500-574b9c8f44e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80)"></div>
+  <div class="card-info">    
+    <div class="card-title">Jade Bruna</div>
+    <div class="card-subtitle"><span>MG | </span>312 Passeios realizados</div>
+  </div>
+</ion-card>
+<ion-card>
+  <div class="card-image" style="background-image: url(https://images.unsplash.com/photo-1553531384-411a247ccd73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80)"></div>
+  <div class="card-info">    
+    <div class="card-title">Vinicius Costa</div>
+    <div class="card-subtitle"><span>MG | </span>12 Passeios realizados</div>
+  </div>
+</ion-card>
   
   <popmenu></popmenu>
 </ion-content>

@@ -67,4 +67,11 @@ export class HomeResultsPage {
     return await popover.present();
   }
 
+  goToPerson() {
+    this.navCtrl.navigateForward('person');
+  }
+  goToPasseios() {
+    this.navCtrl.navigateForward('my-walks');
+  }
+
 }

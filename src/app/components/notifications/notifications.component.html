@@ -1,26 +1,35 @@
 <ion-list no-padding no-margin>
     <ion-list-header color="dark">
-      <ion-label class="fw700">Notifications</ion-label>
+      <ion-label class="fw700">Contratar Passeio</ion-label>
     </ion-list-header>
 
-    <ion-item color="primary" class="text-10">
-      <ion-icon name="mail" color="light"></ion-icon>
-      <ion-label>New Offer 25% OFF</ion-label>
-    </ion-item>
-
-    <ion-item color="light" class="text-10">
-      <ion-icon name="mail-open" color="primary"></ion-icon>
-      <ion-label>New Offer 15% OFF by month!</ion-label>
-    </ion-item>
-
-    <ion-item color="light" class="text-10">
-      <ion-icon name="mail-open" color="primary"></ion-icon>
-      <ion-label>New Offer 10% OFF by month!</ion-label>
-    </ion-item>
-
-    <ion-item color="primary" class="text-10">
-      <ion-icon name="mail" color="light"></ion-icon>
-      <ion-label>New Offer 35% OFF</ion-label>
-    </ion-item>
-
+    <ion-item>
+        <ion-label>Meu pet</ion-label>
+        <ion-select multiple="true">
+          <ion-select-option value="95833" selected>Bidu</ion-select-option>
+          <ion-select-option value="95906">Bob</ion-select-option>
+          <ion-select-option value="65655" selected>Jorge</ion-select-option>
+          <ion-select-option value="21342">Maria Tereza</ion-select-option>
+        </ion-select>
+      </ion-item>
+      <ion-item>
+          <ion-label>Tempo</ion-label>
+          <ion-select multiple="true">
+            <ion-select-option value="1" selected>1 Hora</ion-select-option>
+            <ion-select-option value="2">2 Horas</ion-select-option>
+            <ion-select-option value="3" selected>3 Horas</ion-select-option>
+          </ion-select>
+        </ion-item>
+        <ion-item>
+            <ion-label>Data</ion-label>
+            <ion-select multiple="true">
+              <ion-select-option value="1" selected>01/06/2019</ion-select-option>
+              <ion-select-option value="2">02/06/2019</ion-select-option>
+              <ion-select-option value="3" selected>03/06/2019</ion-select-option>
+              <ion-select-option value="4" selected>04/06/2019</ion-select-option>
+              <ion-select-option value="5">05/06/2019</ion-select-option>
+              <ion-select-option value="6" selected>06/06/2019</ion-select-option>
+            </ion-select>
+          </ion-item>
+          <ion-button color="primary">Contratar</ion-button>
   </ion-list>

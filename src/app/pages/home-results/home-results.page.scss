@@ -14,3 +14,25 @@
         }
     }
 }
+
+.card-image {
+    height: 110px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-info {
+    padding: 1rem;
+
+    .card-title {
+        color: #505050;
+        font-size: 1.1rem;
+    }
+
+    .card-subtitle {
+        color: #a7a7a7;
+        font-size: 0.8rem;
+        margin-top: 3px;
+    }
+}
